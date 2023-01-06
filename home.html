@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 <body>
+
     <section id="home">
         <header id="header">
             <nav id="navbar">
@@ -31,7 +33,7 @@
         </header>
         <div id="baslik">
             <div class="baslik">
-                <h1>Balıkesir Nakliyat</h1>
+                <h1 >Balıkesir Nakliyat</h1>
                 <p>"İşini Özenle Yapanlar İçin"</p>
             </div>
             <br>
@@ -76,5 +78,22 @@
             </nav>
         </footer>
     </section>
+    
+        <script type="text/javascript">
+        
+            var baslik = document.title;
+            var yeniBaslik = "Hoop! Beni Unutma :)";
+        
+            window.onblur = function(){
+                document.title = yeniBaslik;
+            }
+        
+            window.onfocus = function()
+            {
+                document.title = baslik;
+            }
+                
+        </script>
+    
 </body>
 </html>
