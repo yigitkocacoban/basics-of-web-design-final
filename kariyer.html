@@ -12,6 +12,29 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        input[type=submit]{
+            color: black;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: medium;
+        }
+        input[type=file]{
+            color: black;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: medium;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        input[type=submit]:hover{
+            color: black;
+            font-weight: bolder;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: #5CB8E4;
+        }
+    </style>
 </head>
 <body>
     <section id="home">
@@ -30,7 +53,21 @@
             </nav>
         </header>
         <section id="section">
-            <div class="icerik"></div>
+            <div class="icerik">
+                <div class="tanitim margin">
+                    <h1>CV Gönder</h1>
+                    <hr>
+                    <br>
+                    <p>Bizimle çalışmak istedğini biliyoruz ve seninle de çalışmak istiyoruz.</p>
+                    <br>
+                    <p>Seni değerlendirmemiz için bize CV'ni gönder.</p>
+                    <br>
+                    <form action="#" method="post" class="form ortala" id="form ortala"> 
+                        <input type="file"/>
+                        <input type="Submit" value="Gönder" name="upload" />
+                    </form>
+                </div>
+            </div>
         </section>
 
         <footer id="footer">

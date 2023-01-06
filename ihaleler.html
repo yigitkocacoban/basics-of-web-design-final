@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balıkesir Nakliyat</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        table {
+            margin-top: 15px;
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            color: black;
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        .ihaleler>h1 {
+            text-align: center;
+            color: black;
+        }
+    </style>
 </head>
+
 <body>
     <section id="home">
         <header id="header">
@@ -24,24 +53,63 @@
             <nav id="navbar">
                 <ul id="tags">
                     <li><a href="menu.html">
-                        <span class="material-symbols-outlined menu according">menu</span>
-                    </a></li>
+                            <span class="material-symbols-outlined menu according">menu</span>
+                        </a></li>
                 </ul>
             </nav>
         </header>
         <section id="section">
-            <div class="icerik"></div>
+            <div class="ihaleler">
+                <h1>Aktif İhaleler</h1>
+                <table>
+                    <tr>
+                        <th>Satıcı</th>
+                        <th>İletişim</th>
+                        <th>Şehir</th>
+                    </tr>
+                    <tr>
+                        <td>Çağrı Caner</td>
+                        <td>cagricaner@gmail.com</td>
+                        <td>Kütahya</td>
+                    </tr>
+                    <tr>
+                        <td>Gökhan Özbey</td>
+                        <td>g_ozbey@proton.me</td>
+                        <td>Eskişehir</td>
+                    </tr>
+                    <tr>
+                        <td>Burak Akyüz</td>
+                        <td>burakakyuz34@hotmail.com</td>
+                        <td>İstanbul</td>
+                    </tr>
+                    <tr>
+                        <td>Rahmi Karadere</td>
+                        <td>r.karadere35@outlook.com</td>
+                        <td>İzmir</td>
+                    </tr>
+                    <tr>
+                        <td>Yaşar Yerlikaya</td>
+                        <td>yasar_y.kaya@gmail.com</td>
+                        <td>Manisa</td>
+                    </tr>
+                    <tr>
+                        <td>Aleyna Temeltaş</td>
+                        <td>aleynatemeltass@gmail.com</td>
+                        <td>Niğde</td>
+                    </tr>
+                </table>
+            </div>
         </section>
-
-        <footer id="footer">
-            <hr  color="#8758FF">
-            <nav id="footerbar">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
-            </nav>
-        </footer>
     </section>
+    <footer id="footer">
+        <hr  color="#8758FF">
+        <nav id="footerbar">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </nav>
+    </footer>
 </body>
+
 </html>

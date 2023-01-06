@@ -45,9 +45,19 @@ section#section h1#baslik{
 }
 
 footer#footer{
-    width: 100%;
-    height: 5vh;
-    background-color: #181818;
+    position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 6vh;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #181818;
+            color: white;
+            text-align: center;
+            padding: auto;
+            border-top: 2px solid #8758FF;
 }
 nav#footerbar{
     width: 30vh;
@@ -300,6 +310,24 @@ div.tanitim .image-1{
     background-size: cover;
     background-image: url(balikesir.jpg);
 }
+div.tanitim .image-2{
+    border-radius: 20px;
+    width: 100%;
+    height: 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(holding-1.jpg);
+}
+div.tanitim .image-4{
+    border-radius: 20px;
+    width: 100%;
+    height: 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(holding-2.jpg);
+}
 div.tanitim .image-3{
     border-radius: 20px;
     width: 100%;
@@ -431,4 +459,78 @@ div.margin{
     border-style: groove;
 }
 
+.tanitim a{
+    display: inline-block;
+    margin: 40px;
+    text-decoration: none;
+}
+.tanitim a:hover{
+    color: #181818;
+    display: inline-block;
+    margin: 40px;
+    text-decoration: none;
+    transition: 0.2;
+}
+div#daire{
+    border-color: #8758FF;
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    background-color: #8758FF;
+    border-radius: 100%;
+}
 
+div.profile{
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    background-image: url(yigit.jpg);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.profile-2{
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    background-image: url(muratsari.jpeg);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.profile-3{
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    background-image: url(arcelik.jpg);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.profile-4{
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    background-image: url(vestel.png);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.profile-5{
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    background-image: url(turkcell.png);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.profile-6{
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    background-image: url(vodefone.png);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

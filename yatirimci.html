@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balıkesir Nakliyat</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .icerik {
+            text-align: center;
+        }
+
+        .icerik>h1 {
+            margin-top: 15px;
+        }
+
+        .icerik>p {
+            margin-top: 10px !important;
+            width: 70vh;
+            text-align: center;
+            margin: auto;
+        }
+
+        .yatirim {
+            margin-top: 20px;
+        }
+
+        .footerNew {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 6vh;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #181818;
+            color: white;
+            text-align: center;
+            padding: auto;
+            border-top: 2px solid #8758FF;
+        }
+    </style>
 </head>
+
 <body>
     <section id="home">
         <header id="header">
@@ -24,24 +64,31 @@
             <nav id="navbar">
                 <ul id="tags">
                     <li><a href="menu.html">
-                        <span class="material-symbols-outlined menu according">menu</span>
-                    </a></li>
+                            <span class="material-symbols-outlined menu according">menu</span>
+                        </a></li>
                 </ul>
             </nav>
         </header>
         <section id="section">
-            <div class="icerik"></div>
+            <div class="icerik">
+                <h1>Yatırımcı Paneli</h1>
+                <p>Bu sayfada hisselerimize nasıl yatırım yapabileceğiniz, sıklıkla sorulan sorular ve cevapları yer almakta. Daha detaylı bilgi için iletişim kısmındaki numaramızdan bizi arayabilir veya mail atabilirsiniz.</p>
+                <div class="yatirim">
+                    Şirketimizin hisselerini 3 şekilde satın alabilirsiniz.<br>
+                    <b>1-</b> Bankanızın uygulamasından/sitesinden BNAKL hisse senedi satın alabilirsiniz.<br>
+                    <b>2-</b> Anlaşmalı olduğumuz kripto ağı olan AVAX ağından hisse senedi satın alabilirsiniz.<br>
+                    <b>3-</b> Bizimle adresimizde buluşup karşılıklı konuşarak hisselerimize ortak olabilirsiniz.<br><br>
+                    Daha detaylı bilgilendirme için bizi aramayı unutmayın.
+                </div>
+            </div>
         </section>
-
-        <footer id="footer">
-            <hr  color="#8758FF">
-            <nav id="footerbar">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
-            </nav>
-        </footer>
     </section>
+    <div class="footerNew">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+    </div>
 </body>
+
 </html>
